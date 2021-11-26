@@ -34,6 +34,8 @@ while True:
         position[1] += 10
     if (up_down == 'u' and position[0] >10):
         position[1] -= 10
+    gaze_status = ''
+    up_down = ''
     f1 = scale(img.shape,position)
     cv2.circle(img, f1, 50, (0, 0, 255), -1)
     x_mid = frame.shape[1]
