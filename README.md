@@ -1,3 +1,4 @@
-I was a little bored and had the idea of this game. There is still work to do we'll see if I get bored again
+The MovePoint mini game works.
+The current working version is in the MovePoint branch
 
 DlibGame/main.py
