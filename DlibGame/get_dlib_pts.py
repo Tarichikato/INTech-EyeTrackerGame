@@ -5,7 +5,7 @@ import cv2
 class PtsGetter():
     def __init__(self):
         self.detector = dlib.get_frontal_face_detector()
-        self.predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+        self.predictor = dlib.shape_predictor("./Data/shape_predictor_68_face_landmarks.dat")
 
 
     def get_pts(self,im):
