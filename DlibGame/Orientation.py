@@ -25,9 +25,9 @@ def get_orientation(pts):
 def get_up_down(pts):
     # Projetion de l'écart de 2 - 31
     l = abs(pts[27][1] - pts[30][1])
-    if(l>50):
+    if(l>60):
         return('d')
-    if(l<40):
+    if(l<50):
         return('u')
     return ''
 
